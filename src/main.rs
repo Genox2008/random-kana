@@ -7,8 +7,7 @@ fn main() {
 
     println!("Write the following in Hiragana/Katakana: ");
      for i in 1..10 {
-        let kana_indx = rand::thread_rng().gen_range(1..40);
+        let kana_indx = rand::thread_rng().gen_range(1..kana_vec.len()+1);
         println!("{}", kana_vec[kana_indx]);
      }
 }
-
