@@ -5,7 +5,7 @@ fn main() {
    let args: Vec<String> = env::args().collect();
    let amount_of_printed_kana = &args[1];
 
-   let kana_vec = vec!["nothing","a", "e","i","o","u","ka","ke","ki","ko","ku",
+   let kana_vec = vec!["nothing","n", "a", "e","i","o","u","ka","ke","ki","ko","ku",
    "sa","se","shi","so","su","ta","te","chi","to","tsu","ji", "zu", "ga","ge","gi","go",
    "gu", "za","ze","zo","da","de","do", "na", "ni","nu", "ne", "no","ba","bi","bu", "be",
    "bo", "pa", "pi", "pu", "pe", "po", "ha", "hi", "fu", "he", "ho", "ma", "mi", "mu", 
